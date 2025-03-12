@@ -690,3 +690,4 @@ def genNewXTestStatic(dates,ticker):
     X_test.append(tempVal[0])
     Y_test.append(tempVal[1])
   return X_test,Y_test,dates
+    
