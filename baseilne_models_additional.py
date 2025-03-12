@@ -485,3 +485,4 @@ baseline_model = baseline_model.applymap(lambda x: x[0])
 baseline_model[''] = range(len(baseline_model))
 baseline_model
 baseline_model.to_csv('/content/drive/MyDrive/Base-Line-model/' + triker1 + '_' + trend + '_baseline_model.csv', index=False)
+
